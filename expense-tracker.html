@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense-tracker.css">
+</head>
+<body>
+    <div class="header-section">
+        <p class="balance-js balance">Balance:</p>
+        <span class="fill-blanks js-fill-blanks non-visible">Fill In The Blanks:</span>
+        <button class="js-create-button create-button">Create transaction</button>
+    </div>
+    
+    <div class="transactions-all">
+    <div>
+    <input type="text" class="js-type-input box" placeholder="Type">
+    </div>
+
+    <div>
+    <input type="text" class="js-name-input box" placeholder="Name">
+    </div>
+
+    <div>
+    <input type="text" class="js-amount-input box" placeholder="Amount">
+    </div>
+
+    <div>
+    <input type="text" class="js-price-input box" placeholder="Price">
+    </div>
+
+    <div>
+    <input type="text" class="js-desc-input box" placeholder="Description">
+    </div>
+
+    <div>
+        <button class="js-confirm-button confirm-button">Confirm</button>
+    </div>
+    </div>
+
+    <div class="main-section">
+    <div class="show-array">
+        
+    </div>
+        <div class="right-stats js-right-stats">
+    <div>
+        <h3>Incomes:</h3>
+        <div class="js-income-list"></div>
+    </div>
+
+    <div>
+        <h3>Expenses:</h3>
+        <div class="js-expense-list"></div>
+    </div>
+        </div>
+    </div>
+    <button class="clear-all-button js-clear-all-button non-visible z">Clear All</button>
+
+
+    <div class="confirm-window non-visible">
+        <div class="confirm-window">
+        <div class="confirm-inner-elements">
+        <div class="sure-text-div">
+            <p>Are you Sure?</p>
+        </div>
+
+        <div class="buttons">
+            <button class="js-yes-button yes-button">yes</button>
+            <button class="js-no-button no-button">no</button>
+        </div>
+        </div>
+        </div>
+        <div class="close-window"><button class="js-close-window-button close-window-button">X</button></div>
+    </div>
+    
+   
+
+    <script src="expense-tracker.js"></script>
+</body>
+</html>

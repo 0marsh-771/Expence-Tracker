@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.transactions-all {
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.be-visible {
+    visibility: inherit;
+}
+
+.non-visible {
+    visibility: hidden;
+}
+
+.create-button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    background-color: rgb(21, 147, 109);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    transition: 0.15s;
+    margin-right: 10px;
+}
+
+.create-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.transaction-ready {
+    display: flex;
+    gap: 70px;
+    border: 2px solid rgb(163, 157, 157);
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 800px;
+    padding: 0 25px;
+} 
+
+.top-right-section {
+    display: flex;
+    gap: 50px;
+}
+
+.bottom-right-section {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-section {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.plus {
+   color:rgb(16, 204, 69);
+    border: 3px solid rgb(16, 204, 69);
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 2px 10px;
+}
+
+.minus {
+    color:rgb(161, 27, 27);
+    border: 3px solid rgb(161, 27, 27);
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 1px 12px;
+}
+
+.delete-button {
+    all: unset;
+    background-color: rgb(255, 0, 0);
+    height: 25px;
+    color: white;
+    padding: 1px 12px;
+    border-radius: 15px;
+    transition: 0.35s;
+}
+
+.delete-button:hover {
+    padding: 2px 20px;
+    cursor: pointer;
+}
+
+.delete-button:active {
+    opacity: 0.7;
+}
+
+.description {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    min-width: 0;
+}
+
+.confirm-window {
+    background-color: rgb(215, 212, 212);
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+    opacity: 0.9;
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+}
+
+.close-window {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+
+.confirm-inner-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clear-all-button {
+    border: none;
+    background-color: rgb(255, 132, 56);
+    color: white;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    border-radius: 13px;
+    margin-left: 760px;
+}
+
+.clear-all-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.balance {
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(189, 15, 6);
+}
+
+input {
+    font-size: 15px;
+}
+
+.confirm-button {
+    border: none;
+    color: white;
+    height: 30px;
+    background-color: rgb(36, 184, 203);
+    font-size: 15px;
+    border-radius: 13px;
+    width: 80px;
+    transition: 0.25s;
+}
+
+.confirm-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.yes-button,
+.no-button {
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    margin-top: 40px;
+}
+
+.yes-button {
+    background-color: rgb(21, 158, 55);
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.no-button {
+    background-color: red;
+    cursor: pointer;
+}
+
+.yes-button:hover,
+.no-button:hover,
+.close-window-button:hover {
+    opacity: 0.8;
+}
+
+.close-window-button {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
