@@ -47,6 +47,7 @@ Create Income and Expense transactions
 <img width="1915" height="914" alt="Alert Error" src="https://github.com/user-attachments/assets/3181059e-5a77-48de-8000-273a0b74232d" />
 
 <img width="1917" height="901" alt="Empty Page" src="https://github.com/user-attachments/assets/701e806b-d75d-448e-bb9a-cedec0b82f4f" />
+
 ## How to Run
 1. Clone the repository
 2. Open index.html in your browser
